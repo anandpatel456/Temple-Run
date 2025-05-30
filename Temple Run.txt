@@ -1,3 +1,27 @@
+# Temple Run Hand Gesture Control
+
+A Python project to control *Temple Run* using hand gestures detected via webcam, built with OpenCV, MediaPipe, and PyAutoGUI.
+
+## Features
+- Detects hand gestures to control *Temple Run*:
+  - One finger: Move left
+  - Two fingers: Move right
+  - Open hand: Jump
+- Real-time hand tracking using MediaPipe
+- Keyboard input simulation with PyAutoGUI
+
+## Requirements
+- Python 3.10 (64-bit)
+- Libraries: `opencv-python`, `mediapipe`, `pyautogui`, `numpy`
+- Visual C++ Redistributable ([download](https://aka.ms/vs/17/release/vc_redist.x64.exe))
+- Webcam
+- *Temple Run* on PC (e.g., via Piro)
+
+## Installation
+```bash
+pip install opencv-python mediapipe pyautogui numpy
+
+# Code of the temple run game 
 import cv2
 import mediapipe as mp
 import pyautogui
